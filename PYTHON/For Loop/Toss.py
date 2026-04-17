@@ -11,11 +11,12 @@ def toss():
     input("Press Enter to Toss the Coin>")
     print("You Got", random.choice(prob)+"!\n")
 
-# toss()
 while(True):
     toss()
 
+
 print("\n")     # Distinguisher
+
 
 # =========================
 # Version 2 — Improved Version
@@ -30,6 +31,6 @@ def toss():
     print("You Got",random.choice(probability),"!\n")
 
     if action == 'q':
-        exit
+        exit()
 while True:
     toss()
